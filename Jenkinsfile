@@ -13,6 +13,8 @@ pipeline {
         stage('Check Running Containers') {
             steps {
                 bat 'docker ps'
+
+                
             }
         }
     }
